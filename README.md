@@ -38,7 +38,8 @@ $ sudo docker-compose pull & sudo docker-compose up -d
 
 Upload file and transform to json
 ```shell
-$ cd src/test/resources //there is a file for testing 
+//there is a file for testing 
+$ cd src/test/resources
 $ curl -X 'POST' 'http://localhost:8080/upload' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@hans_cv.txt;type=text/plain'
 ```
 ```json
@@ -70,7 +71,8 @@ $ curl -X 'POST' 'http://localhost:8080/upload' -H 'accept: application/json' -H
 
 Upload file, transform to json and save in the storage
 ```shell
-$ cd src/test/resources //there is a file for testing
+//there is a file for testing
+$ cd src/test/resources
 $ curl -X 'POST' 'http://localhost:8080/upload-save' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'file=@hans_cv.txt;type=text/plain'
 ```
 ```json
