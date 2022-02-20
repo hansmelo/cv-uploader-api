@@ -66,6 +66,11 @@ $ curl -X 'POST' 'http://localhost:8080/upload' -H 'accept: application/json' -H
   ]
 }
 ```
+Logs:
+```shell
+2022-02-20 10:25:04.592  INFO 78008 --- [nio-8080-exec-1] c.h.c.controller.ResumeController        : Upload: hans_cv.txt
+2022-02-20 10:25:04.596  INFO 78008 --- [nio-8080-exec-1] c.h.c.service.ResumeConverterService     : Processed file: hans_cv.txt. It was transformed into JSON format.
+```
 
 Upload file, transform to json and save in the storage
 ```shell
@@ -98,6 +103,12 @@ $ curl -X 'POST' 'http://localhost:8080/upload-save' -H 'accept: application/jso
     }
   ]
 }
+```
+Logs:
+```shell
+2022-02-20 09:41:09.868  INFO 78008 --- [nio-8080-exec-2] c.h.c.controller.ResumeController        : Upload and Save: hans_cv.txt
+2022-02-20 09:41:09.874  INFO 78008 --- [nio-8080-exec-2] c.h.c.service.ResumeConverterService     : Processed file: hans_cv.txt. It was transformed into JSON format.
+2022-02-20 09:41:09.953  INFO 78008 --- [nio-8080-exec-2] c.h.c.service.FileStorageService         : Saved file: hans_cv.txt in the bucket resume-bucket 
 ```
 To check the file, access this link:
 
