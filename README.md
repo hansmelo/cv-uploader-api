@@ -11,9 +11,7 @@ cv-uploader-api cover several topics:
 - Swagger
 
 ## usage
-Consider it is running from the root path(cv-uploader-api)
-
-## usage
+Consider it is running from the root path(cv-uploader-api).
 
 To run tests and build:
 
