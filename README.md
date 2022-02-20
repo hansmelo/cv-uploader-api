@@ -109,7 +109,7 @@ Username: minio
 Password: minio123
 
 ## Swagger
-Grafana: http://localhost:8080/swagger-ui/index.html
+OpenAPI definition: http://localhost:8080/swagger-ui/index.html
 
 ## Project Structure
 - [cv-uploader-api]
