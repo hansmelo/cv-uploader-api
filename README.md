@@ -48,22 +48,22 @@ $ curl -X 'POST' 'http://localhost:8080/upload' -H 'accept: application/json' -H
   "email": "hansmelo@gmail.com",
   "educations": [
     {
-      "name": "java",
-      "institution": "coursera"
+      "name": "HTML5 and CSS Fundamentals",
+      "institution": "Coursera"
     },
     {
-      "name": "python",
-      "institution": "edx"
+      "name": "Blockchain and FinTech: Basics, Applications, and Limitations",
+      "institution": "Edx"
     }
   ],
   "experiences": [
     {
       "role": "senior software engineer",
-      "companyName": "123456789"
+      "companyName": "Meta"
     },
     {
       "role": "jr software engineer",
-      "companyName": "456786868"
+      "companyName": "Google"
     }
   ]
 }
@@ -81,22 +81,22 @@ $ curl -X 'POST' 'http://localhost:8080/upload-save' -H 'accept: application/jso
   "email": "hansmelo@gmail.com",
   "educations": [
     {
-      "name": "java",
-      "institution": "coursera"
+      "name": "HTML5 and CSS Fundamentals",
+      "institution": "Coursera"
     },
     {
-      "name": "python",
-      "institution": "edx"
+      "name": "Blockchain and FinTech: Basics, Applications, and Limitations",
+      "institution": "Edx"
     }
   ],
   "experiences": [
     {
       "role": "senior software engineer",
-      "companyName": "123456789"
+      "companyName": "Meta"
     },
     {
       "role": "jr software engineer",
-      "companyName": "456786868"
+      "companyName": "Google"
     }
   ]
 }

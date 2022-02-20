@@ -1,12 +1,12 @@
 name: Hans Melo
 email: hansmelo@gmail.com
 educations:
-   - name: "java"
-     institution: "coursera"
-   - name: "python"
-     institution: "edx"
+   - name: "HTML5 and CSS Fundamentals"
+     institution: "Coursera"
+   - name: "Blockchain and FinTech: Basics, Applications, and Limitations"
+     institution: "Edx"
 experiences:
    - role: "senior software engineer"
-     companyName: 123456789
+     companyName: "Meta"
    - role: "jr software engineer"
-     companyName: 456786868
+     companyName: "Google"
