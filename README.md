@@ -118,11 +118,7 @@ OpenAPI definition: http://localhost:8080/swagger-ui/index.html
         - [/controller] : Controller.
         - [/service] : Services for the business logic needed by controller.
         - [/domain] : Domain classes.
-    - [test/java/com/hans/cvuploaderapi        - [/handlers] : Unit tests for handlers.
-        - [/services] : Unit tests for services.
-        - [/repository] : Unit test for repository.
-- [grafana] - confs of dashboard and datasources, setup.sh the script of import of confs.
-- [prometheus] - confs of the prometheus.]
+    - [test/java/com/hans/cvuploaderapi]
         - [/integration] : Integration tests.
 
 ## Future Improvements
